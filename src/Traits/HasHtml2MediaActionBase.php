@@ -1,6 +1,6 @@
 <?php
 
-namespace Torgodly\Html2Media\Traits;
+namespace IaEad\Html2Media\Traits;
 
 use Closure;
 use Filament\Actions\MountableAction;
@@ -14,7 +14,7 @@ use Illuminate\Support\HtmlString;
 
 /**
  * Trait HasHtml2MediaActionBase
- * @package Torgodly\Html2Media\Traits
+ * @package IaEad\Html2Media\Traits
  * @mixin Action
  */
 trait  HasHtml2MediaActionBase

@@ -1,6 +1,6 @@
 <?php
 
-namespace Torgodly\Html2Media;
+namespace IaEad\Html2Media;
 
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
