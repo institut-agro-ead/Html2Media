@@ -24,7 +24,10 @@ function performAction({ action = 'print', element, ...customOptions } = {}) {
         html2canvas: {
             scale: 2,
             useCORS: true,
-            logging: true
+            logging: true,
+            scrollY: 0,
+            height: window.outerHeight,
+            windowHeight: window.outerHeight,
         },
         margin: 0
     };
